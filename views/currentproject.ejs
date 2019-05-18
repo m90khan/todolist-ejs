@@ -1,0 +1,16 @@
+<%- include('/header') -%>
+<h1>Compose</h1>
+<form  action="/compose" method="post">
+  <div class="class="form-group"">
+
+
+  <label  for="Title">Title</label>
+  <input class="form-control" type="text"   name="postTitle" placeholder='Enter Name' value="">
+  <label for="post">Post</label>
+  <textarea class="form-control" type="text" name="postBody" col='200' row='5' placeholder='Enter your Message here' value=""></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary bg-dark " name="button">Publish</button>
+
+</form>
+
+<%- include('/footer') -%>
